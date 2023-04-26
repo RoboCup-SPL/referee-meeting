@@ -17,7 +17,7 @@
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 		<style type="text/css">
 			.drehen_cw {
-				animation:spin_cw 4s linear infinite;
+				animation:spin_cw 10s linear infinite;
 			}
 
 			@keyframes spin_cw {
@@ -27,7 +27,7 @@
 			}
 
 			.drehen_ccw {
-				animation:spin_ccw 4s linear infinite;
+				animation:spin_ccw 10s linear infinite;
 			}
 
 			@keyframes spin_ccw {
@@ -41,10 +41,9 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h2>RoboCup SPL Ref Meeting 2022</h2>
+					<h2>RoboCup SPL Ref Meeting 2023</h2>
 					<ul>
-						<li>only new rules</li>
-						<li>red text only spoken and not presented on slides</li>
+						<li>only new rules 2022/2023</li>
 						<li>not meant as a complete coverage of all rules, visit meeting and read rules doc as well</li>
 						<li><a href="index.html?transition=none">Link to turn off slide transition animations</a></li>
 					</ul>
@@ -53,28 +52,36 @@
 					<img style="height: 555px; float: left"  data-src="imgs/full-nao.png" class="drehen_cw">
 					<img style="height: 555px; float: left"  data-src="imgs/full-nao.png" class="drehen_ccw">
 				</section>
-				<section style="color: red">
-					<h2 style="color: red">Network limits</h2>
+				<section>
+					<h2>Network limits</h2>
 					<p>
 						You should have implemented this already<br>
-						0 Goals on violation<br>
-						GC will show 0 goals
+						0 Goals on violation
 					</p>
 				</section>
-				<section style="color: red">
-					<h2 style="color: red">Interleaved reffing</h2>
+				<section>
+					<h2>Interleaved reffing</h2>
 				</section>
-				<section style="color: red">
-					<h2 style="color: red">Manual placement</h2>
+				<section>
+					<h2>Manual placement</h2>
 					<p> fully removed</p>
 				</section>
-				<section style="color: red">
-					<h2 style="color: red">No fallback to button interace</h2>
+				<section>
+					<h2>No fallback to button interace</h2>
 					<p>Teams must listen to GC</p>
 				</section>
 				<section>
+					<h2>New GameController, new message header</p>
+				</section>
+				<section>
 					<img style="height: 555px; float: left"  data-src="imgs/field.png">
-					<h2>Field</h2>
+					<h2>Field - Line names</h2>
+					<ul style="float: right;">
+						<li>goal line</li>
+						<li>touchline</li>
+						<li>halfway line</li>
+						<li>penalty mark</li>
+					</ul>
 				</section>
 				<section>
 					<img style="height: 555px; float: left"  data-src="imgs/field-centercircle.png">
@@ -82,7 +89,7 @@
 				</section>
 				<section>
 					<img style="height: 555px; float: left"  data-src="imgs/field-sideline.png">
-					<h2>Sideline</h2>
+					<h2>Touchline</h2>
 				</section>
 				<section>
 					<img style="height: 555px; float: left"  data-src="imgs/field-goal-line.png">
@@ -101,9 +108,41 @@
 					<h2>Goal</h2>
 				</section>
 				<section>
+					<h2>Field - Inside and Outside</h2>
+					<ul>
+						<li>goal lines and touchlines belong to field</li>
+						<li>goal area: goal area lines and part of goal line</li>
+						<li>penalty area: penalty area lines and part of goal line</li>
+						<li>center cirlce lines belong to enter circle</li>
+						<li>Halfway line does <b>not</b> belong to any half</li>
+						<li>goal line does <b>not</b> belong to goal</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Jerseys</h2>
+					<ul>
+						<li>5 to 7 players</li>
+						<li>Jersey numbers from 1 to 20</li>
+						<li>when playing with full team, one must be a goalkeeper</li>
+						<li>field players and goalkeeper can be substituted</li>
+						<li>goalkeepers must have different color than both team's field players</li>
+						<li>Head ref decides in case of a clash</li>
+						<li>Goalkeeper can wear number 1</li>
+						<li>No home or away jersey anymore</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Pregame Meeting</h2>
+					<ul>
+						<li>Decide for jersey colors</li>
+						<li>Field-Side selection and Initial Kick-Off by coin toss</li>
+						<li>Any other game related topic</li>
+					</ul>
+				</section>
+				<section>
 					<h2>Whistles</h2>
 					<ul>
-						<li class="fragment">
+						<li>
 							Enterting <u>Play</u>: 1 whistle from the T-junction
 							<ul>
 								<li>Begin of a half</li>
@@ -111,21 +150,18 @@
 								<li>Penalty kicks</li>
 							</ul>
 						</li>
-						<li class="fragment">1st half ends: 2 short whistles from the T-junction</li>
-						<li class="fragment">2nd half ends: 2 short 1 long whistles from the T-junction</li>
-						<li class="fragment">Goal scored: 1 whistle from the field end besides the goal</li>
+						<li>1st half ends: 2 short whistles from the T-junction</li>
+						<li>2nd half ends: 2 short 1 long whistles from the T-junction</li>
+						<li>Goal scored: 1 whistle from the field end besides the goal</li>
 					</ul>
 				</section>
 				<section>
-					<h2>Penalty area</h2>
-				</section>
-				<section style="color: red">
-					<h2 style="color: red">Only 3 robots in penalty area</h2>
-					<p>Give fallen robots a chance to leave</p>
-				</section>
-				<section>
-					<img style="height: 555px; float: left"  data-src="imgs/field-penalty-area.png">
-					<h2>Penalty area</h2>
+					<h2>Indirect Kick</h2>
+					Any attacking team may only score a goal via indirect kick from any restart into playing from a free kick (Does not apply to kick-off and penalty kick).
+					<ul>
+						<li>no score of a goal from direct kick, including deflections</li>
+						<li>deliberately played a second time</li>
+					</ul>
 				</section>
 				<section>
 					<h2>Kick-off</h2>
@@ -142,40 +178,24 @@
 				<section>
 					<img style="height: 555px; float: left"  data-src="imgs/kickoff-attacker.png">
 					<h2>Kick-off attacker</h2>
+					<p>No limit in number of team members in own half of center circle</p>
 				</section>
 				<section>
 					<img style="height: 555px; float: left"  data-src="imgs/kickoff-no-cross-attacker.png">
 					<h2>Attacker: don't cross until ball is free</h2>
 					<p>Penalty: illegal position</p>
 				</section>
-				</section>
-				<section style="color: red">
-					<h2 style="color: red">Indirect kick</h2>
-					<p>
-						Limit for attacker and defender.<br>
-						Goal is not scored and goal kick happens.<br>
-						Own goals do count.
-					</p>
-				</section>
 				<section>
 					<h2>Kicks</h2>
-					<p>There is a lot of them.<p>
-					<p style="font-size: smallset">(I'm sorry.)</p>
 				</section>
 
 				<section>
 					<h2>Initial kick-off, kick-off</h2>
 					<p>When entering <u>Play</u></p>
-				</section>
-				<section>
-					<h2>Initial kick-off, kick-off</h2>
 					<p>Robot positions: see earlier</p>
 					<p>Ball position: center circle center</p>
-				</section>
-				<section>
-					<h2>Initial kick-off, kick-off</h2>
 					<p>Callout: none</p>
-					<p>Indirect kick rule is active</p>
+					<p><b style="color: red;">No</b> indirect kick rule</p>
 				</section>
 
 				<section>
@@ -190,9 +210,6 @@
 					<img style="height: 555px; float: left"  data-src="imgs/kick-in-c.png">
 					<h2>Kick-in</h2>
 					<p>only kicking team allowed near the ball</p>
-				</section>
-				<section>
-					<h2>Kick-in</h2>
 					<p>Callout: kick-in <u>color</u></p>
 					<p>Indirect kick rule is active</p>
 				</section>
@@ -209,9 +226,6 @@
 					<img style="height: 555px; float: left"  data-src="imgs/goal-kick-c.png">
 					<h2>Goal kick</h2>
 					<p>only kicking team allowed near the ball</p>
-				</section>
-				<section>
-					<h2>Goal kick</h2>
 					<p>Callout: goal kick <u>color</u></p>
 					<p>Indirect kick rule is active</p>
 				</section>
@@ -228,9 +242,6 @@
 					<img style="height: 555px; float: left"  data-src="imgs/corner-kick-c.png">
 					<h2>Corner kick</h2>
 					<p>only kicking team allowed near the ball</p>
-				</section>
-				<section>
-					<h2>Corner kick</h2>
 					<p>Callout: corner kick <u>color</u></p>
 					<p>Indirect kick rule is active</p>
 				</section>
@@ -243,8 +254,6 @@
 					<img style="height: 555px; float: left"  data-src="imgs/pushig-free-kick-b.png">
 					<h2>Pushing free kick</h2>
 					<p>only kicking team allowed near the ball</p>
-				</section>
-				<section>
 					<h2>Pushing free kick</h2>
 					<p>Callout: foul <u>color</u> <u>number</u></p>
 					<p>Indirect kick rule is active</p>
@@ -290,7 +299,18 @@
 					<p>Managed by whistle and GC</p>
 					<p>Direct kick is mandatory</p>
 				</section>
-
+				
+				<section>
+					<h2>Fallen or Inactive Robots</h2>
+					<ul>
+						<il>should get-up within 5s => Fallen robot</il>
+						<li>fallen after 2 (3) attemps => Fallen robot</li>
+						<li>Turned off or ceased activity for 10s => Inactive robot</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Thanks for your attention</h2>
+				</section>
 			</div>
 		</div>
 
