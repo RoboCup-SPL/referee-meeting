@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>SPL Ref 2022</title>
+		<title>SPL Ref 2023</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
@@ -43,6 +43,7 @@
 				<section>
 					<h2>RoboCup SPL Ref Meeting 2023</h2>
 					<ul>
+						<li>This meeting will be recorded</li>
 						<li>only new rules 2022/2023</li>
 						<li>not meant as a complete coverage of all rules, visit meeting and read rules doc as well</li>
 						<li><a href="index.html?transition=none">Link to turn off slide transition animations</a></li>
@@ -59,19 +60,11 @@
 						0 Goals on violation
 					</p>
 				</section>
-				<section>
+				<!-- <section>
 					<h2>Interleaved reffing</h2>
-				</section>
+				</section> -->
 				<section>
-					<h2>Manual placement</h2>
-					<p> fully removed</p>
-				</section>
-				<section>
-					<h2>No fallback to button interace</h2>
-					<p>Teams must listen to GC</p>
-				</section>
-				<section>
-					<h2>New GameController, new message header</p>
+					<h2>New GameController</p>
 				</section>
 				<section>
 					<img style="height: 555px; float: left"  data-src="imgs/field.png">
@@ -81,6 +74,7 @@
 						<li>touchline</li>
 						<li>halfway line</li>
 						<li>penalty mark</li>
+						<li>center mark</li>
 					</ul>
 				</section>
 				<section>
@@ -121,19 +115,19 @@
 				<section>
 					<h2>Jerseys</h2>
 					<ul>
-						<li>5 to 7 players</li>
+						<li>Up to 5 (CS) or 7 (CC) players</li>
 						<li>Jersey numbers from 1 to 20</li>
-						<li>when playing with full team, one must be a goalkeeper</li>
-						<li>field players and goalkeeper can be substituted</li>
-						<li>goalkeepers must have different color than both team's field players</li>
+						<li>When playing with full team, one must be a goalkeeper</li>
+						<li>Field players and goalkeeper can be substituted</li>
+						<li>Goalkeepers must have different color than both team's field players</li>
 						<li>Head ref decides in case of a clash</li>
 						<li>Goalkeeper can wear number 1</li>
-						<li>No home or away jersey anymore</li>
 					</ul>
 				</section>
 				<section>
 					<h2>Pregame Meeting</h2>
 					<ul>
+						<li>10 minutes before the game starts</li>
 						<li>Decide for jersey colors</li>
 						<li>Field-Side selection and Initial Kick-Off by coin toss</li>
 						<li>Any other game related topic</li>
@@ -172,7 +166,7 @@
 				</section>
 				<section>
 					<img style="height: 555px; float: left"  data-src="imgs/kickoff-no-cross-defender.png">
-					<h2>Defender: don't cross until ball is free</h2>
+					<h2>Defender: don't cross until ball in play</h2>
 					<p>Penalty: illegal position</p>
 				</section>
 				<section>
@@ -182,7 +176,7 @@
 				</section>
 				<section>
 					<img style="height: 555px; float: left"  data-src="imgs/kickoff-no-cross-attacker.png">
-					<h2>Attacker: don't cross until ball is free</h2>
+					<h2>Attacker: don't cross until ball in play</h2>
 					<p>Penalty: illegal position</p>
 				</section>
 				<section>
@@ -193,7 +187,7 @@
 					<h2>Initial kick-off, kick-off</h2>
 					<p>When entering <u>Play</u></p>
 					<p>Robot positions: see earlier</p>
-					<p>Ball position: center circle center</p>
+					<p>Ball position: center mark</p>
 					<p>Callout: none</p>
 					<p><b style="color: red;">No</b> indirect kick rule</p>
 				</section>
@@ -292,14 +286,13 @@
 						Robot positions: manually placed by ref<br>
 						on goal line and just outside penalty area
 					</p>
-					<p>Ball position: penalty spot</p>
+					<p>Ball position: penalty mark</p>
 				</section>
 				<section>
 					<h2>Penalty kick shootout</h2>
 					<p>Managed by whistle and GC</p>
 					<p>Direct kick is mandatory</p>
 				</section>
-				
 				<section>
 					<h2>Fallen or Inactive Robots</h2>
 					<ul>
@@ -307,6 +300,15 @@
 						<li>fallen after 2 (3) attemps => Fallen robot</li>
 						<li>Turned off or ceased activity for 10s => Inactive robot</li>
 					</ul>
+				</section>
+				<section>
+					<h2>Local / Global Game Stuck</h2>
+					No game progress within 30 seconds 
+					<ul>
+						<li>Local Game Stuck: remove one robot</li>
+						<li>Global Game Stuck: reset game,<br> call: Global Game Stuck <u>further team</u></li>
+					</ul>
+
 				</section>
 				<section>
 					<h2>Thanks for your attention</h2>
