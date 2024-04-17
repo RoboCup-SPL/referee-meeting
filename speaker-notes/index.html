@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>SPL Ref 2023</title>
+		<title>SPL Ref 2024</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
@@ -41,16 +41,18 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h2>RoboCup SPL Ref Meeting 2023</h2>
+					<h2>RoboCup SPL Ref Meeting</h2>
 					<ul>
-						<li>This meeting will be recorded</li>
-						<li>not meant as a complete coverage of all rules, visit meeting and read rules doc as well</li>
+						<!--<li>This meeting will be recorded</li>-->
+						<li>German Open 2024</li>
+						<li>not meant as a complete coverage of all rules, read rules doc as well</li>
 						<li><a href="index.html?transition=none">Link to turn off slide transition animations</a></li>
 					</ul>
 				</section>
 				<section>
-					<img style="height: 555px; float: left"  data-src="imgs/full-nao.png" class="drehen_cw">
-					<img style="height: 555px; float: left"  data-src="imgs/full-nao.png" class="drehen_ccw">
+					<img style="height: 555px; float: left" data-src="imgs/full-nao-googly-eyes.png" class="drehen_cw">
+					<img style="height: 555px; float: left" data-src="imgs/full-nao-googly-eyes.png" class="drehen_ccw">
+					<p style="clear: both">R2K &bull; HULKs &bull; Devils &bull; HTWK &bull; Berlin<br>Bembelbots &bull; DNT &bull; Naova &bull; B-Human</p>
 				</section>
 				<section>
 					<img style="height: 555px; float: left"  data-src="imgs/field.png">
@@ -149,6 +151,22 @@
 					</ul>
 				</section>
 				<section>
+					<img  data-src="imgs/penalty_re-entry_points_2024.png">
+				</section>
+				<section>
+					<h2>Gloves</h2>
+					<p>
+						Entering <u>Ready</u>:
+						<ul>
+							<li>Wear <b style="color: red;">red gloves</b></li>
+							<li>Stand at the T-junction</li>
+							<li>Raise both hands over your head</li>
+							<li>Hold up for 2 seconds</li>
+							<li>Callout: Forbidden Motion in Inital <u>color</u> <u>number</u></li>
+						</ul>
+					</p>
+				</section>
+				<section>
 					<h2>Whistles</h2>
 					<ul>
 						<li>
@@ -166,6 +184,16 @@
 				</section>
 				<section>
 					<h2>Indirect Kick</h2>
+					<h2>Champions Cup</h2>
+					Any team may only score a goal via indirect kick from any restart into <u>Play</u>.
+					<ul>
+						<li>no score of a goal from direct kick, including deflections</li>
+						<li>deliberately played a second time</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Indirect Kick</h2>
+					<h2>Challenge Shield</h2>
 					Any attacking team may only score a goal via indirect kick from any restart into <u>Play</u> from a free kick (Does not apply to kick-off and penalty kick).
 					<ul>
 						<li>no score of a goal from direct kick, including deflections</li>
@@ -213,7 +241,7 @@
 					<p>Robot positions: see earlier</p>
 					<p>Ball position: center mark</p>
 					<p>Callout: none</p>
-					<p><b style="color: red;">No</b> indirect kick rule</p>
+					<p>Indirect kick rule: Champoins Cup only</p>
 				</section>
 
 				<section>
@@ -300,6 +328,7 @@
 					<p>Direct kick is mandatory</p>
 				</section>
 
+				<!--
 				<section>
 					<h2>Penalty kick shootout</h2>
 					<p>When games can't end in a tie</p>
@@ -317,32 +346,43 @@
 					<p>Managed by whistle and GC</p>
 					<p>Direct kick is mandatory</p>
 				</section>
-				<section>
+				-->
+
+				<!--<section>
 					<h2>Fallen or Inactive Robots</h2>
 					<ul>
-						<il>should get-up within 5s => Fallen robot</il>
+						<li>should get-up within 5s => Fallen robot</il>
 						<li>fallen after 2 (3) attemps => Fallen robot</li>
 						<li>Turned off or ceased activity for 10s => Inactive robot</li>
 					</ul>
+				</section>-->
+
+				<section>
+					<h2>Player stance</h2>
+					<ul>
+						<li>Up to one robot hand wider on each side</li>
+						<li>Penalty after 10 seconds</li>
+					</ul>
 				</section>
+				
 				<section>
 					<h2>Local / Global Game Stuck</h2>
 					No game progress within 30 seconds
 					<ul>
 						<li>Local Game Stuck: remove one robot</li>
-						<li>Global Game Stuck: reset game,<br> call: Global Game Stuck <u>further away team</u></li>
+						<li>Global Game Stuck: reset game,<br>call: Global Game Stuck,<br>GC will show which team has kickoff</li>
 					</ul>
 				</section>
-				<section>
+				<!-- <section>
 					<h2>Network limits</h2>
 					<p>
 						You should have implemented this already<br>
 						0 Goals on violation
 					</p>
-				</section>
-				<!-- <section>
-					<h2>Interleaved reffing</h2>
 				</section> -->
+				<section>
+					<h2>Interleaved reffing</h2>
+				</section>
 				<section>
 					<h2>New GameController</p>
 				</section>
