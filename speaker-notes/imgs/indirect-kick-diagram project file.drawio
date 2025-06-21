@@ -1,0 +1,71 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Page-1" id="TndW5HJq6dxaYG6mbCRc">
+    <mxGraphModel dx="1726" dy="1167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#000000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=48;strokeWidth=5;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="yBh0fpjdqYlRYJfKVizi-1" target="yBh0fpjdqYlRYJfKVizi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-1" value="Half starts" style="rounded=1;whiteSpace=wrap;html=1;fontSize=48;strokeWidth=5;fillColor=none;strokeColor=light-dark(#ffffff, #121212);fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="420" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=5;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yBh0fpjdqYlRYJfKVizi-2" target="yBh0fpjdqYlRYJfKVizi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yBh0fpjdqYlRYJfKVizi-2" target="yBh0fpjdqYlRYJfKVizi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;strokeWidth=5;" edge="1" parent="1" source="yBh0fpjdqYlRYJfKVizi-2" target="yBh0fpjdqYlRYJfKVizi-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-2" value="Indirect kick rule&lt;div&gt;is in &lt;font&gt;effect&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 24px; background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;(play counter resets)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=48;strokeWidth=5;fillColor=none;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="420" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#FFFFFF,#EDEDED);strokeWidth=5;" edge="1" parent="1" source="yBh0fpjdqYlRYJfKVizi-10" target="yBh0fpjdqYlRYJfKVizi-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-20" value="Not taken" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#FFFFFF;fontSize=40;" vertex="1" connectable="0" parent="yBh0fpjdqYlRYJfKVizi-19">
+          <mxGeometry x="0.575" y="1" relative="1" as="geometry">
+            <mxPoint x="-67" y="41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-10" value="Free kick" style="whiteSpace=wrap;html=1;rounded=1;fontSize=48;strokeWidth=5;fillColor=none;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="670" width="420" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#FFFFFF;strokeWidth=5;" edge="1" parent="1" source="yBh0fpjdqYlRYJfKVizi-12" target="yBh0fpjdqYlRYJfKVizi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-12" value="Goal scored" style="whiteSpace=wrap;html=1;rounded=1;fontSize=48;strokeWidth=5;fillColor=#006600;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="720" y="270" width="420" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-17" value="Taken" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=5;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#FFFFFF;fontSize=40;exitX=0.5;exitY=0;exitDx=0;exitDy=0;horizontal=0;" edge="1" parent="1" source="yBh0fpjdqYlRYJfKVizi-10" target="yBh0fpjdqYlRYJfKVizi-2">
+          <mxGeometry x="-0.52" y="-30" relative="1" as="geometry">
+            <mxPoint x="40" y="520" as="sourcePoint" />
+            <mxPoint x="330" y="620" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-22" value="First kick&lt;div&gt;successful&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=5;labelBackgroundColor=none;fontColor=#FFFFFF;fontSize=40;horizontal=0;" edge="1" parent="1" source="yBh0fpjdqYlRYJfKVizi-18" target="yBh0fpjdqYlRYJfKVizi-12">
+          <mxGeometry x="-0.04" y="-60" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-23" value="Otherwise" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#FFFFFF;strokeWidth=5;labelBackgroundColor=none;fontColor=#FFFFFF;fontSize=40;" edge="1" parent="1" source="yBh0fpjdqYlRYJfKVizi-18" target="yBh0fpjdqYlRYJfKVizi-2">
+          <mxGeometry x="-0.3239" y="35" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-18" value="Direct kick allowed for one team" style="whiteSpace=wrap;html=1;rounded=1;fontSize=48;strokeWidth=5;fillColor=none;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="720" y="670" width="420" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;strokeWidth=5;" edge="1" parent="1" source="yBh0fpjdqYlRYJfKVizi-24" target="yBh0fpjdqYlRYJfKVizi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yBh0fpjdqYlRYJfKVizi-24" value="&lt;font style=&quot;font-size: 44px;&quot;&gt;Two robots of the same team have played the ball&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=48;strokeWidth=5;fillColor=none;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="720" y="10" width="420" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
