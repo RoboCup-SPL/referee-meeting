@@ -12,6 +12,7 @@
 		<meta name="author" content="Hakim El Hattab">
 		<meta name="author" content="Stefan Seering">
 		<meta name="author" content="Patrick Göttsch">
+		<meta name="author" content="Francesco Petri">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -41,43 +42,94 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<!--
+					
 					<img style="height: 555px; float: left" data-src="imgs/full-nao-googly-eyes.png" class="drehen_cw">
 					<img style="height: 555px; float: left" data-src="imgs/full-nao-googly-eyes.png" class="drehen_ccw">
-					-->
-
+					
+				</section>
+				<section>
 					
 					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> B-Human</label>
 					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> Berlin United</label>
-					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> DNT</label><br>
+					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> Bit-Bots</label>
 					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> HTWK</label>
 					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> HULKs</label>
-					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> NaoDevils</label><br>
-					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> Naova</label>
-					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> RedbackBots</label>
-					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> Robo-Eireann</label><br>
-					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> rUNSWift</label>
+					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> Rurhbot Devils</label><br>
+					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> R-ZWEI Kickers</label><br>
 					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> SPQR</label>
-					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> WisTex</label>
-					
-					
-					<!--
-						<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> Bembelbots</label>
-						<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> Nomadz</label>
-						<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> R2K</label>
-					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> SABANA Herons</label>
-					-->
+					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> whIRLwind</label><br>
+					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> WF Wolves</label><br>
+					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> ZJU Dancer</label><br>
 				</section>
 				<section>
-					<h2>RoboCup SPL Ref Meeting</h2>
+					<h2>The 1st RoboCup HSL Referee Meeting</h2>
 					<ul>
-						<!--<li>This meeting will be recorded</li>-->
-						<!--<li>Online Meeting for RoboCup World Championship 2024</li>-->
-						<li>Meeting for RoboCup World Championship 2025</li>
-						<!--<li>We discuss new rules since 2024 + Q&amp;A</li>-->
+						<li>Meeting for RoboCup German Open 2026</li>
 						<li>Q&amp;A</li>
-						<li>You need to read <a href="https://spl.robocup.org/downloads/#2025">the Rules Document</a> as well.</li>
+						<li>Consult <a href="https://github.com/RoboCup-HumanoidSoccerLeague/HSL-Rules">the latest version of the rules document</a></li>
 						<li><a href="index.html?transition=none">Link to turn off slide transition animations</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>What to know as... Head referee</h2>
+					<ul>
+						<li>Call a stop of play at any time, for any reason (emergency, severe tangling, ...)</li>
+						<li>No visual gestures, whistle is only relevant on kickoff (change from SPL)</li>
+						<li>"Advantage rule": you can hold on calling a penalty if the team being fouled is benefitting from the current situation</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>What to know as... Head referee</h2>
+					<ul>
+						<li>Kickoff can be taken from the opponent half (still inside the center circle) (change from HL)</li>
+						<li>Indirect kick in short: <i>any two robots</i> need to have touched the ball (change from SPL/HL)</li>
+						<li>End game when ball stops, not when time ends (change from HL)</li>
+						<li>Wait for penalty kick to finish before ending the game (change from SPL)</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>What to know as... Assistant referee</h2>
+					<ul>
+						<li>Keep an eye on the game and indicate events to head ref</li>
+						<li>Place the ball for free kicks, etc. (less duties than SPL)</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>What to know as... GC Operator</h2>
+					<ul>
+						<li>Incremental penalties only (ignore warning/yellow/red)</li>
+						<li>Stop Play mode</li>
+						<li>Free kicks automatically stop play (click Resume Play)</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>What to know as... Robot handler</h2>
+					<ul>
+						<li>Carry robots to penalty or pickup positions</li>
+						<li>Untangle robots when requested</li>
+						<li>No manual placement during in-game penalty kick (change from HL)</li>
+						<li>Know your physical and virtual safety measures!</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>What to know as... Team member</h2>
+					<ul>
+						<li>You can do anything with picked-up robots (relaxation from HL)</li>
+						<li>Know your physical and virtual safety measures!</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>This is the end of the slides for German Open 2026.</h2>
+					<ul>
+						<li>Old slides from RoboCup 2025 SPL follow.</li>
+						<li>I'm not deleting them yet in case they're useful for RC2026.</li>
 					</ul>
 				</section>
 
