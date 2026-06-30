@@ -42,13 +42,13 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					
+
 					<img style="height: 555px; float: left" data-src="imgs/full-nao-googly-eyes.png" class="drehen_cw">
 					<img style="height: 555px; float: left" data-src="imgs/full-nao-googly-eyes.png" class="drehen_ccw">
-					
+
 				</section>
 				<section>
-					
+
 					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> AustinVilla</label>
 					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> B-Human</label>
 					<label style="padding-left: 1em"><input style="transform: scale(3)" type="checkbox"> BadgerBots</label>
@@ -112,13 +112,13 @@
 					</ul>
 				</section>
 
-				<!-- Intro with most changes -->
+				<!-- Intro -->
 
 				<section>
 					<h2>Referee Roles</h2>
 					<ul>
 						<li>Head referee: Main authority of the game. Adjudicate events, assign penalties, ...</li>
-						<li>Assistant referees: Additional pairs of eyes. Track the ball when it goes out, informs of events out of head red's sight, ...</li>
+						<li>Assistant referees: Additional pairs of eyes and ball handlers. Track the ball when it goes out, informs of events out of head red's sight, ...</li>
 						<li>GameController operator: Enforce the decisions of humans via the GC. Start the game, award goals, start and end penalties, ...</li>
 					</ul>
 				</section>
@@ -127,88 +127,12 @@
 					<h2>Team officials</h2>
 					<ul>
 						<li>Team captain: represents the team</li>
-						<li>Robot handlers: on the field, move their robots around to execute ref decisions</li>
+						<li>Robot handlers: on the field, move their robots around to execute ref decisions (penalty, untangle, ...)</li>
 						<li>GameController contact: sits next to GC operator, tells them when robots are ready for penalty etc.</li>
 					</ul>
 				</section>
 
-				<section>
-					<h2>What to know as... Head referee</h2>
-					<ul>
-						<li>Call a stop of play at any time, for any reason (emergency, severe tangling, ...)</li>
-						<li>No visual gestures, whistle is only relevant on kickoff (change from SPL)</li>
-						<li>"Advantage rule": you can hold on calling a penalty if the team being fouled is benefitting from the current situation</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>What to know as... Head referee</h2>
-					<ul>
-						<li>Kickoff can be taken from the opponent half (still inside the center circle) (change from HL)</li>
-						<li>Indirect kick in short: <i>any two robots</i> need to have touched the ball (change from SPL/HL)</li>
-						<li>End game when ball stops, not when time ends (change from HL)</li>
-						<li>Wait for penalty kick to finish before ending the game (change from SPL)</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Brief stop</h2>
-					For any situation where a human has to enter the field:
-					<ul>
-						<li>Free kicks (automatic)</li>
-						<li>Penalized robot</li>
-						<li>Entangled robots</li>
-						<li>Also for emergency reasons</li>
-					</ul>
-				</section>
-				
-				<section>
-					<h2>What to know as... Assistant referee</h2>
-					<ul>
-						<li>Keep an eye on the game and indicate events to head ref</li>
-						<li>Place the ball for free kicks, etc. (less duties than SPL)</li>
-					</ul>
-				</section>
-				
-				<section>
-					<h2>What to know as... GC Operator</h2>
-					<ul>
-						<li>Call every button you click</li>
-						<li>Call time-based events (Set, ball free, end penalty, last 10 secs of Play, ...)</li>
-						<li>Stop Play mode: click button or Spacebar</li>
-						<li>Free kicks automatically stop play (click Resume Play)</li>
-					</ul>
-				</section>
-				
-				<section>
-					<h2>What to know as... Robot handler</h2>
-					<ul>
-						<li>Carry robots to penalty or pickup positions</li>
-						<li>Untangle robots when requested</li>
-						<li>No manual placement during in-game penalty kick (change from HL)</li>
-						<li>Know your physical and virtual safety measures!</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>What to know as... Team member</h2>
-					<ul>
-						<li>You can do anything with picked-up robots (relaxation from HL)</li>
-						<li>Know your physical and virtual safety measures!</li>
-					</ul>
-				</section>
-
 				<!-- Initial things -->
-
-				<section>
-					<h2>People allowed on the field</h2>
-					<ul>
-						<li>Referees</li>
-						<li>Robot handlers</li>
-						<li>No one else</li>
-					</ul>
-					<p>Keep other people out of the carpet!</p>
-				</section>
 
 				<section>
 					<h2>Pregame Meeting</h2>
@@ -223,6 +147,7 @@
 
 				<section>
 					<h2>Interleaved reffing</h2>
+					TODO: is this a thing this year?
 					<ol>
 						<li>Pregame meeting on both fields</li>
 						<li>First half on field A</li>
@@ -231,8 +156,8 @@
 						<li>All Refs switch back, second half on field B</li>
 					</ol>
 				</section>
-				
-				<!-- Game play (possibly out of order part starts here) -->
+
+				<!-- Game play -->
 
 				<section>
 					<h2>Kick-off</h2>
@@ -266,6 +191,16 @@
 						<li>Kick-off</li>
 						<li>Kick-in</li>
 					</ul>
+					<p>Invalid direct goal → goal kick for the opponents</p>
+				</section>
+
+				<section>
+					<h2>Ending the game</h2>
+					The clock is not absolute, allow the action to finish
+					<ul>
+						<li>End game when ball stops, not when time ends</li>
+						<li>Wait for penalty kick to finish before ending the game</li>
+					</ul>
 				</section>
 
 				<!-- Penalties -->
@@ -284,6 +219,7 @@
 					<ul>
 						<li>Handler can bring robot to team or directly to re-entry point</li>
 						<li>GC: click robot button when the robot is ready for penalty</li>
+						<li>"Advantage rule": you can hold on calling a penalty if the team being fouled is benefitting from the current situation</li>
 					</ul>
 				</section>
 
@@ -291,10 +227,22 @@
 					<h2>Re-entry point</h2>
 					<img data-src="imgs/penalty_re-entry_points_2024.png">
 				</section>
-				
+
 				<section>
 					<h2>Re-entry point</h2>
 					<img data-src="imgs/penalty_re-entry_points_2024_example.jpeg" width="75%" height="75%">
+				</section>
+
+				<section>
+					<h2>Brief stop</h2>
+					For any situation where a human has to enter the field:
+					<ul>
+						<li>Free kicks (automatic)</li>
+						<li>Penalized robot</li>
+						<li>Entangled robots</li>
+						<li>Also for emergency reasons</li>
+						<li>And any other time when deemed relevant</li>
+					</ul>
 				</section>
 
 				<section>
@@ -379,7 +327,7 @@
 					<ul>
 						Formalized after German Open
 						<li>A robot commits pushing close to the ball in their own penalty area</li>
-						<li>State immediately becomes Ready: autonomous positioning</li>
+						<li>State immediately becomes Ready: <u>autonomous positioning</u></li>
 						<li>Set: place ball, correct goalie position</li>
 						<li>Play: striker attempts kick</li>
 						<li>Direct goal: valid, award point and go to kick-off</li>
@@ -401,7 +349,7 @@
 				<section>
 					<h2>Penalty kicks</h2>
 					<img style="height: 350px" src="imgs/penalty-kick-goalie-correction.png">
-					<p>On Set, if goalie not on goal line: put it on line inside goal by <u>moving the least possible distance</u></p>
+					<p>On Set, if goalie not on goal line: put it on line by <u>moving the least possible distance</u></p>
 				</section>
 
 				<!-- Substitution -->
@@ -414,7 +362,7 @@
 						<li>Allowed in Initial (incl. timeout), Set and Finish</li>
 						<li>Old player is removed from field</li>
 						<li>New player can enter immediately...</li>
-						<li>...OR it can wait in maintenance and enter later (no penaltty timer)</li>
+						<li>...OR it can wait in maintenance and enter later (no penalty timer)</li>
 						<li>Entry at the standard point</li>
 					</ul>
 				</section>
@@ -422,7 +370,6 @@
 				<section>
 					<h2>Substitution procedure</h2>
 					<ul>
-						Formalized after German Open<br>
 						For a penalized robot:
 						<li>Allowed in Initial (incl. timeout), Set, Finish <i>and brief stop</i></li>
 						<li>New player inherits penalty timer of old</li>
@@ -441,18 +388,16 @@
 				</section>
 
 				<section>
-					<h2>Game stuck</h2>
-					Local: bots close to ball but no motion (10 secs)
+					<h2>People allowed on the field</h2>
 					<ul>
-						<li>Penalize closest robot</li>
+						<li>Referees</li>
+						<li>Robot handlers</li>
+						<li>No one else</li>
 					</ul>
-					Global: No bot close to the ball (30 secs)
-					<ul>
-						<li>Drop ball</li>
-					</ul>
+					<p>Keep other people out of the carpet!</p>
 				</section>
 
-				<!-- I want this just before the final messages (possibly out of order part is ends before this) -->
+				<!-- I want this just before the final messages -->
 
 				<section>
 					<h2>Underage children</h2>
@@ -468,7 +413,9 @@
 
 				<section>
 					<h2>Your decisions are final</h2>
-					Don't change them
+					<p>Don't change them</p>
+					<p></p>
+					<p>Mistakes are okay as long as you strive to be impartial</p>
 				</section>
 
 				<section>
@@ -482,9 +429,20 @@
 				<section>
 					<h2>Best practices</h2>
 					<ul>
-						<li><b>Be loud!</b> You have to be heard by everyone else on the other side of the field</li>
+						<li>Have a referee discussion before the game</li>
+						<li><b>Be loud and clear!</b> You have to be heard by everyone else on the other side of the field</li>
 						<li>Stop play first, call free kick or penalty later</li>
-						<li>Re-enters after penalty as normal</li>
+						<li>Use yellow/red cards sparingly</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>GC Operator best practices</h2>
+					<ul>
+						<li>Call every button you click</li>
+						<li>Call time-based events (Set, ball free, end penalty, last 10 secs of Play, ...)</li>
+						<li>Stop Play mode: click button or Spacebar</li>
+						<li>Free kicks automatically stop play (click Resume Play)</li>
 					</ul>
 				</section>
 
@@ -498,9 +456,13 @@
 
 				<section>
 					<h2>TC, OC</h2>
-					Do what we do, but better: Apply by ???th of July. Details can be found in Discord.
+					Do what we do, but better: Apply by 2nd of July. Details can be found in Discord.
 				</section>
-				
+
+				<section>
+					<h2>Quiz time! ^_^</h2>
+				</section>
+
 				<section>
 					<h2>Thanks for your attention</h2>
 					Questions?
